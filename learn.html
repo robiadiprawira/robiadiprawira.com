@@ -7,38 +7,35 @@
 </head>
 <style>
     .container{
-        border: 5px solid black;
         display: flex;
         height: 500px;
-        /* flex-wrap: wrap;
-        align-content: flex-start;
-        gap: 12px; */
-    }
-    .box{
-        height: 100px;
-        width: 100px;
-        margin:2px;
-        border-radius: 12px;
-        text-align: center;
-        line-height: 100px;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
         color: aliceblue;
     }
-    .item1{
-        background-color: tomato;
+    .box {
+        border-radius: 10px;
     }
-    .item2{
-        background-color: purple;
+    .redMonster{
+        background-color: brown;
+        height: 100px;
+        width: 100px;
     }
-    .item3{
-        background-color: orange; 
-        flex-shrink: 5;
+    .blueMonster {
+        background-color: blue;
+        height: 100px;
+        width: 100px;
     }
 </style>
 <body>
     <div class="container">
-        <div class="box item1">Tomato</div>
-        <div class="box item2">Grape</div>
-        <div class="box item3">Orange</div>
+        <div class="box redMonster">
+            <span>Red Monster</span>
+        </div>
+        <div class="box blueMonster">
+            <span>Blue Monster</span>
+        </div>
     </div>
 </body>
 </html>
