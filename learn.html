@@ -6,36 +6,29 @@
     <title>Learn</title>
 </head>
 <style>
-    .container{
-        display: flex;
-        height: 500px;
-        gap: 24px;
-        justify-content: center;
-        align-items: center;
-        color: aliceblue;
-    }
-    .box {
-        border-radius: 10px;
-    }
-    .redMonster{
-        background-color: brown;
-        height: 100px;
-        width: 100px;
-    }
-    .blueMonster {
-        background-color: blue;
-        height: 100px;
-        width: 100px;
-    }
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Memungkinkan item untuk pindah ke baris baru jika lebar parent tidak mencukupi */
+  /* Tambahkan gaya lainnya seperti margin, padding, dll. sesuai kebutuhan */
+  background-color: black;
+  gap: 24px;
+  justify-content: center;
+  
+}
+
+.item {
+  /* Tentukan lebar masing-masing item */
+  width: 49%; /* Misalnya, Anda dapat mengatur lebar sesuai kebutuhan */
+  /* Tambahkan gaya lainnya seperti margin, padding, dll. sesuai kebutuhan */
+  background-color: aquamarine;
+}
+
 </style>
 <body>
     <div class="container">
-        <div class="box redMonster">
-            <span>Red Monster</span>
-        </div>
-        <div class="box blueMonster">
-            <span>Blue Monster</span>
-        </div>
-    </div>
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <!-- Tambahkan item lainnya di sini -->
+    </div>      
 </body>
 </html>
