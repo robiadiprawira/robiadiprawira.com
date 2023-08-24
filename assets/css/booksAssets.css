@@ -1,0 +1,8 @@
+.bookContent {
+  background-repeat: none;
+  background-size: cover;
+}
+
+.ikigaiBook {
+  background-image: url("../img/ikigaiBook.png");
+}

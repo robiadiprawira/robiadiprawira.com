@@ -553,9 +553,6 @@ li {
   gap: 12px;
   align-items: flex-start;
   justify-content: flex-end;
-  background-image: url("../img/ikigaiBook.png");
-  background-repeat: none;
-  background-size: cover;
 }
 
 .infoBook {
