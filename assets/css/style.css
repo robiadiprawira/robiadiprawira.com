@@ -267,6 +267,7 @@ span {
 .captionTitle {
   font-size: 1rem;
   color: #c0c0c0;
+  line-height: 160%;
 }
 
 .powerList {
@@ -440,6 +441,10 @@ li {
   align-items: center;
 }
 
+.linkButton {
+  text-decoration: none;
+}
+
 .projectPict {
   width: 358px;
   height: 270px;
@@ -583,4 +588,49 @@ li {
   display: flex;
   justify-content: center;
   margin-bottom: 42px;
+}
+
+.topSection {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.imageProduct {
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #242424;
+  border: #565656 solid 1px;
+  border-radius: 12px;
+}
+
+.imageProduct > img {
+  width: 266px;
+  height: 266px;
+}
+
+.container {
+  margin: 0 200px;
+}
+
+.infoProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sourceProduct {
+  font-size: 20px;
+  color: #c0c0c0;
+  font-weight: 400;
+}
+
+a {
+  color: #219df3;
+}
+
+.linkProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
