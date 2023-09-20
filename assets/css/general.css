@@ -139,6 +139,8 @@ table {
 
 /* Start Here */
 
+/* Transition when reload start here */
+
 @keyframes transitionIn {
   from {
     opacity: 0;
@@ -151,50 +153,18 @@ table {
   }
 }
 
+/* Font global using Fira Sans start here */
+
 html {
   font-family: "Fira Sans", sans-serif;
   /* background-image: url("../background.png"); */
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 1.5rem;
-  margin: 0 12.5rem 0 12.5rem;
-}
-
-.email {
-  color: #c0c0c0;
-  font-size: 1rem;
-}
-
-.bannerEmail {
-  display: flex;
-  align-items: center;
-}
-
-.itemNavigation {
-  display: flex;
-  align-items: center;
-}
-
-.linkNav {
-  text-decoration: none;
-  color: #c0c0c0;
-}
-
-span {
-  margin: 0 0.563rem 0 0.563rem;
-}
-
-.iconEmail {
-  margin: 0 6px 0 0;
-}
-
-.heroProfile {
+.sectionHero {
+  background-color: lightcoral;
   display: flex;
   gap: 103px;
-  margin: 7rem 18.313rem 12.5rem 18.313rem;
+  margin: 0 100px;
 }
 
 .profileImage {
@@ -293,11 +263,11 @@ span {
 }
 
 .powerSection {
+  background-color: lightcyan;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 96px;
 }
 .powerCont {
   display: flex;
@@ -349,8 +319,11 @@ span {
   line-height: 160%;
 }
 
+.expSection {
+  background-color: lightgoldenrodyellow;
+}
+
 .expContent {
-  margin-top: 32px;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -394,6 +367,10 @@ li {
   display: flex;
   align-content: flex-start;
   align-items: flex-start;
+}
+
+.projectSection {
+  background-color: lightgray;
 }
 
 .listProject {
@@ -451,7 +428,7 @@ li {
 }
 
 .exploSection {
-  margin-bottom: 111px;
+  background-color: lightpink;
 }
 
 .exploCont {
@@ -581,6 +558,7 @@ li {
 }
 
 .shelfSection {
+  background-color: lightsalmon;
   margin-bottom: 57px;
 }
 
@@ -610,13 +588,6 @@ li {
   height: 266px;
 }
 
-.container {
-  margin: 0 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
 .infoProduct {
   display: flex;
   flex-direction: column;
@@ -638,4 +609,42 @@ a {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.taskSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.taskTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.taskListCont {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+.taskDesc {
+  margin-top: 12px;
+  line-height: 150%;
+}
+
+.screenShotList {
+  display: flex;
+  flex-direction: row;
+}
+
+.screenShotItem {
+  width: 450px;
+  max-width: 450px;
+  height: 250px;
+  background-color: #242424;
+  border: #565656 solid 1px;
+  border-radius: 12px;
+  margin-top: 24px;
 }
