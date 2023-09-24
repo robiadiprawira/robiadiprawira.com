@@ -154,35 +154,19 @@ table {
 }
 
 /* Font global using Fira Sans start here */
-
+/* New CSS Start here */
 html {
   font-family: "Fira Sans", sans-serif;
   /* background-image: url("../background.png"); */
 }
 
-.profileImage {
-  width: 114px;
-  height: 114px;
-  border-radius: 100%;
-  background-color: aliceblue;
-  object-fit: cover;
-  margin-bottom: 24px;
+.paragraph {
+  font-size: 1rem;
+  line-height: 150%;
 }
 
-.captionProfile {
-  width: 150px;
-  display: inline-block;
-}
+/* New CSS End Here */
 
-.contprofileImage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.profile {
-  height: fit-content;
-}
 
 .titleContr {
   display: flex;
