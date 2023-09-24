@@ -160,13 +160,6 @@ html {
   /* background-image: url("../background.png"); */
 }
 
-.sectionHero {
-  background-color: lightcoral;
-  display: flex;
-  gap: 103px;
-  margin: 0 100px;
-}
-
 .profileImage {
   width: 114px;
   height: 114px;
@@ -174,19 +167,6 @@ html {
   background-color: aliceblue;
   object-fit: cover;
   margin-bottom: 24px;
-}
-
-.titleHeroText {
-  font-size: 2.5rem;
-  color: #fff;
-  font-weight: 500;
-  line-height: 150%;
-}
-
-.contentHeroText {
-  font-size: 1rem;
-  line-height: 150%;
-  margin: 2.5rem 0 5rem 0;
 }
 
 .captionProfile {
@@ -202,22 +182,6 @@ html {
 
 .profile {
   height: fit-content;
-}
-
-.ctaHero {
-  width: 200px;
-  height: 43px;
-  border-radius: 6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgb(10, 147, 241);
-  background: linear-gradient(
-    47deg,
-    rgba(10, 147, 241, 1) 0%,
-    rgba(84, 181, 248, 1) 100%
-  );
-  color: #fff;
 }
 
 .titleContr {

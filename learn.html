@@ -2,45 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Dom Selection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <style>
-    * { 
-        border: 2px solid #dedede; 
-        padding: 15px; 
-        margin: 15px; 
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
-    html { 
-      margin: 0;
-      padding: 0;
+
+    button{
+      padding: 10px 20px;
     }
-    body { 
-      max-width: 600px;
-      margin: 30px auto;
-      font-family: sans-serif;
-      color: #333;
-    }
+
+
   </style>
 </head>
 <body>
-
-  <h1 id="judul">Hello World</h1>
-  <div id="container">
-      <section id="a">
-          <p class="p1">paragraf 1</p>
-          <a href="http://instagram.com/sandhikagalih">Instagram Sandhika Galih</a>
-          <p class="p2">paragraf 2</p>
-          <p class="p3">paragraf 3</p>
-      </section>
-      <section id="b">
-          <p>paragraf 4</p>
-          <ul>
-              <li>item 1</li>
-              <li>item 2</li>
-              <li>item 3</li>
-          </ul>
-      </section>
+  <div class="container">
+    <h3>Tekan tombol dibawah untuk download konten</h3>
+    <button id="button" onclick="hitung()">Tekan disini</button>
+    <h4 id="counting">0</h4>
   </div>
-
-<script src="script.js"></script>
 </body>
+<script src="./assets/js/learnScript.js"></script>
 </html>

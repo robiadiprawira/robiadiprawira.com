@@ -1,5 +1,5 @@
 .sectionHeader {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
@@ -21,6 +21,7 @@
 
 .itemNavigation {
   display: flex;
+  gap: 10px;
   align-items: center;
 }
 
