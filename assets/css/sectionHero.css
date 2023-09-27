@@ -1,10 +1,9 @@
-
 .sectionHero {
-    /* background-color: lightcoral; */
-    display: flex;
-    gap: 103px;
-    margin: 0 100px;
-  }
+  /* background-color: lightcoral; */
+  display: flex;
+  gap: 120px;
+  margin: 0 100px;
+}
 
 .profile {
   height: fit-content;
@@ -31,24 +30,24 @@
   display: inline-block;
 }
 
-.heroTextContainer{
+.heroTextContainer {
   display: flex;
   flex-direction: column;
   gap: 100px;
 }
 
-.heroText{
+.heroText {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
 .titleHeroText {
-    font-size: 2.5rem;
-    color: #fff;
-    font-weight: 500;
-    line-height: 150%;
-  }
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 500;
+  line-height: 150%;
+}
 
 .ctaHero {
   width: 200px;

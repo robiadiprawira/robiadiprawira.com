@@ -1,0 +1,38 @@
+.powerSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.powerList {
+  display: flex;
+  justify-content: center;
+  width: 1040px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.powerDetail {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  height: 200px;
+  background-color: #242424;
+  border: #565656 solid 1px;
+  width: 48%;
+  height: fit-content;
+  border-radius: 12px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.powerCont {
+  display: flex;
+  background-color: #242424;
+  border: #565656 solid 1px;
+  border-radius: 12px;
+  gap: 24px;
+  padding: 24px;
+  width: 50%;
+}

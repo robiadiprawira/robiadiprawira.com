@@ -167,7 +167,6 @@ html {
 
 /* New CSS End Here */
 
-
 .titleContr {
   display: flex;
   flex-direction: column;
@@ -186,45 +185,6 @@ html {
   font-size: 1rem;
   color: #c0c0c0;
   line-height: 160%;
-}
-
-.powerList {
-  display: flex;
-  justify-content: center;
-  width: 1040px;
-  gap: 24px;
-  flex-wrap: wrap;
-}
-
-.powerDetail {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  height: 200px;
-  background-color: #242424;
-  border: #565656 solid 1px;
-  width: 48%;
-  height: fit-content;
-  border-radius: 12px;
-  padding: 24px;
-  box-sizing: border-box;
-}
-
-.powerSection {
-  background-color: lightcyan;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.powerCont {
-  display: flex;
-  background-color: #242424;
-  border: #565656 solid 1px;
-  border-radius: 12px;
-  gap: 24px;
-  padding: 24px;
-  width: 50%;
 }
 
 .textLogo {
