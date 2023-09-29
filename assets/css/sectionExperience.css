@@ -1,6 +1,6 @@
 
 .sectionExperience {
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
   }
 
   .expContent {
@@ -17,7 +17,6 @@
     gap: 16px;
     max-width: 617px;
   }
-
 
 .compExp {
     font-size: 20px;

@@ -1,0 +1,63 @@
+
+.exploSection {
+    /* background-color: lightpink; */
+  }
+  
+  .exploCont {
+    margin: auto;
+    width: 1040px;
+  }
+  
+  .exploList {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 32px;
+  }
+  
+  .exploItem {
+    border: 1px solid black;
+    background-color: #242424;
+    width: 504px;
+    height: 262px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border-color: #565656;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .expoInstagram {
+    background-image: url("../img/expImg.png");
+    background-repeat: none;
+    background-size: cover;
+  }
+  
+  .expoDribbble {
+    background-image: url("../img/expDribbble.png");
+    background-repeat: none;
+    background-size: cover;
+  }
+  
+  .expoUplabs {
+    background-image: url("../img/expUplabs.png");
+    background-repeat: none;
+    background-size: cover;
+  }
+  
+  .expGithub {
+    background-image: url("../img/expGithub.png");
+    background-repeat: none;
+    background-size: cover;
+  }
+  
+  .explTitle {
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .labelExpl {
+    font-size: 20px;
+  }
