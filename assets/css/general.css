@@ -208,6 +208,13 @@ html {
   border-radius: 8px;
 }
 
+.stillLearn {
+  color: #80FF7D;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 12px;
+}
+
 .powDetCont {
   display: flex;
   flex-direction: column;
