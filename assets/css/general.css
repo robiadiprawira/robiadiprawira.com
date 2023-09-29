@@ -234,54 +234,13 @@ html {
   line-height: 160%;
 }
 
-.expSection {
-  background-color: lightgoldenrodyellow;
-}
-
-.expContent {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  margin-bottom: 108px;
-  align-items: center;
-  justify-content: center;
-}
-
-.expItem {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  max-width: 617px;
-}
-
 li {
   line-height: 150%;
-}
-
-.compExp {
-  font-size: 20px;
-  font-weight: 500;
-  margin: 0;
-}
-
-.titleExp {
-  font-size: 16px;
-  margin: 0;
-}
-
-.timeExp {
-  margin: 0;
 }
 
 .icon-list {
   margin-right: 12px;
   margin-top: 10px;
-}
-
-.descExp {
-  display: flex;
-  align-content: flex-start;
-  align-items: flex-start;
 }
 
 .projectSection {

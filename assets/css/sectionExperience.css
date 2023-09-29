@@ -1,0 +1,41 @@
+
+.sectionExperience {
+    background-color: lightgoldenrodyellow;
+  }
+
+  .expContent {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .expItem {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 617px;
+  }
+
+
+.compExp {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .titleExp {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .timeExp {
+    margin: 0;
+  }
+  
+  .descExp {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
