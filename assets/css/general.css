@@ -258,32 +258,6 @@ li {
   align-items: center;
 }
 
-.topSection {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  margin-top: 64px;
-}
-
-.imageProduct {
-  padding: 40px;
-  box-sizing: border-box;
-  background-color: #242424;
-  border: #565656 solid 1px;
-  border-radius: 12px;
-}
-
-.imageProduct > img {
-  width: 266px;
-  height: 266px;
-}
-
-.infoProduct {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
 .sourceProduct {
   font-size: 20px;
   color: #c0c0c0;
@@ -292,49 +266,4 @@ li {
 
 a {
   color: #219df3;
-}
-
-.linkProduct {
-  margin-top: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.taskSection {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.taskTitle {
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.taskListCont {
-  display: grid;
-  grid-template-columns: auto auto;
-  column-gap: 40px;
-  row-gap: 40px;
-}
-
-.taskDesc {
-  margin-top: 12px;
-  line-height: 150%;
-}
-
-.screenShotList {
-  display: flex;
-  flex-direction: row;
-}
-
-.screenShotItem {
-  width: 450px;
-  max-width: 450px;
-  height: 250px;
-  background-color: #242424;
-  border: #565656 solid 1px;
-  border-radius: 12px;
-  margin-top: 24px;
 }
