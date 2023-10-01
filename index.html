@@ -1,275 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Robiadiprawira</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
     <script src="./assets/js/scrollToTop.js"></script>
-</head>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
 
-<body>
-    <div class="header" id="top">
-        <div class="bannerEmail">
-            <div class="iconEmail">
-                <i class="material-icons" style="font-size:16px;margin-top: 3px; ">alternate_email</i>
-            </div>
-            <div class="email">
-                <i>robiadiprawira@gmail.com</i>
-            </div>
-        </div>
-        <div class="navigation">
-            <ul class="itemNavigation">
-                <li> <a href="./learn.html" class="linkNav">Linkedin</a></li>
-                <span> / </span>
-                <li> <a href="#" class="linkNav">Dribbble</a></li>
-                <span> / </span>
-                <li> <a href="#" class="linkNav">Instagram</a></li>
-                <span> / </span>
-                <li> <a href="#" class="linkNav">Repository</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="heroProfile">
-        <div class="profile">
-            <div class="contprofileImage"> 
-                <img class="profileImage" src="https://images.unsplash.com/photo-1625595234473-c00c86c73353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Avatar Image Here">    
-                <span class="captionProfile">Hi ! Name is Robi</span>
-            </div>
-        </div>
-        <div class="heroText">
-            <div class="titleHeroText">Design, Research and Code All About Interface.</div>
-            <div class="contentHeroText">Enthusiastically reintermediate enterprise best practices whereas B2C vortals. Interactively predominate innovative architectures vis-a-vis premier infrastructures. Completely e-enable sustainable e-services through sticky outsourcing. Authoritatively simplify equity.
+  <body>
+    <div id="app"></div>
 
-            </br></br> Enthusiastically reintermediate enterprise best practices whereas B2C vortals. Interactively predominate innovative architectures vis-a-vis premier infrastructures. Completely e-enable sustainable e-services through sticky outsourcing. Authoritatively simplify equity.
-            </div>
-            <a href="#" style="text-decoration: none;">
-                <div class="ctaHero">Contact me now !</div>
-            </a>
-        </div>
-    </div>
-    <div class="powerSection">
-        <div class="titleContr">
-            <div class="titleSection">My Super Power</div>
-            <div class="captionTitle">Quickly reconceptualize premier experiences vis-a-vis enterprise niche markets.</div>
-        </div>
-        <div class="powerList">
-            <div class="powerDetail">
-                <div class="powerLogo">
-                    <span class="textLogo">UI</span>
-                </div>
-                <div class="powDetCont">
-                    <div class="powerTitle">UI Design</div>
-                    <div class="powerCaption">Efficiently morph cross-platform imperatives before interactive potentialities. Intrinsicly iterate.Efficiently morph cross-platform imperatives before interactive.</div>
-                </div>
-            </div>
-            <div class="powerDetail">
-                <div class="powerLogo">
-                    <span class="textLogo">UI</span>
-                </div>
-                <div class="powDetCont">
-                    <div class="powerTitle">UI Design</div>
-                    <div class="powerCaption">Efficiently morph cross-platform imperatives before interactive potentialities. Intrinsicly iterate.Efficiently morph cross-platform imperatives before interactive.</div>
-                </div>
-            </div>
-            <div class="powerDetail">
-                <div class="powerLogo">
-                    <span class="textLogo">UI</span>
-                </div>
-                <div class="powDetCont">
-                    <div class="powerTitle">UI Design</div>
-                    <div class="powerCaption">Efficiently morph cross-platform imperatives before interactive potentialities. Intrinsicly iterate.Efficiently morph cross-platform imperatives before interactive.</div>
-                </div>
-            </div>
-            <div class="powerDetail">
-                <div class="powerLogo">
-                    <span class="textLogo">UI</span>
-                </div>
-                <div class="powDetCont">
-                    <div class="powerTitle">UI Design</div>
-                    <div class="powerCaption">Efficiently morph cross-platform imperatives before interactive potentialities. Intrinsicly iterate.Efficiently morph cross-platform imperatives before interactive.</div>
-                </div>
-            </div>
-            <div class="powerDetail">
-                <div class="powerLogo">
-                    <span class="textLogo">UI</span>
-                </div>
-                <div class="powDetCont">
-                    <div class="powerTitle">UI Design</div>
-                    <div class="powerCaption">Efficiently morph cross-platform imperatives before interactive potentialities. Intrinsicly iterate.Efficiently morph cross-platform imperatives before interactive.</div>
-                </div>
-            </div>
-            <div class="powerDetail">
-                <div class="powerLogo">
-                    <span class="textLogo">UI</span>
-                </div>
-                <div class="powDetCont">
-                    <div class="powerTitle">UI Design</div>
-                    <div class="powerCaption">Efficiently morph cross-platform imperatives before interactive potentialities. Intrinsicly iterate.Efficiently morph cross-platform imperatives before interactive.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="expSection">
-        <div class="titleContr">
-            <div class="titleSection">Experience</div>
-            <div class="captionTitle">Quickly reconceptualize premier experiences vis-a-vis enterprise niche markets.</div>
-        </div>
-        <div class="expContent">
-            <div class="expItem">
-                <span class="compExp">PT. Semesta Arus Teknologi</span>
-                <span class="titleExp">UI/UX Designer</span>
-                <span class="timeExp">December 2022 - Present</span>
-                <ul>
-                    <li class="descExp">
-                        <img class="icon-list" src="./assets/icon/icon-dot.svg"/>
-                        <p>Collaboratively streamline global channels for viral markets. Progressively scale e-business niche markets without effective leadership. Competently streamline.ise niche markets.</p>
-                    </li>
-                    <li class="descExp">
-                        <img class="icon-list" src="./assets/icon/icon-dot.svg"/>
-                        <p>Collaboratively streamline global channels for viral markets. Progressively scale e-business niche markets without effective leadership. Competently streamline.ise niche markets.</p>
-                    </li>
-                    <li class="descExp">
-                        <img class="icon-list" src="./assets/icon/icon-dot.svg"/>
-                        <p>Collaboratively streamline global channels for viral markets. Progressively scale e-business niche markets without effective leadership. Competently streamline.ise niche markets.</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="expItem">
-                <span class="compExp">PT. Semesta Arus Teknologi</span>
-                <span class="titleExp">UI/UX Designer</span>
-                <span class="timeExp">December 2022 - Present</span>
-                <ul>
-                    <li class="descExp">
-                        <img class="icon-list" src="./assets/icon/icon-dot.svg"/>
-                        <p>Collaboratively streamline global channels for viral markets. Progressively scale e-business niche markets without effective leadership. Competently streamline.ise niche markets.</p>
-                    </li>
-                    <li class="descExp">
-                        <img class="icon-list" src="./assets/icon/icon-dot.svg"/>
-                        <p>Collaboratively streamline global channels for viral markets. Progressively scale e-business niche markets without effective leadership. Competently streamline.ise niche markets.</p>
-                    </li>
-                    <li class="descExp">
-                        <img class="icon-list" src="./assets/icon/icon-dot.svg"/>
-                        <p>Collaboratively streamline global channels for viral markets. Progressively scale e-business niche markets without effective leadership. Competently streamline.ise niche markets.</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="expItem">
-                <span class="compExp">PT. Semesta Arus Teknologi</span>
-                <span class="titleExp">UI/UX Designer</span>
-                <span class="timeExp">December 2022 - Present</span>
-                <ul>
-                    <li class="descExp">
-                        <img class="icon-list" src="./assets/icon/icon-dot.svg"/>
-                        <p>Collaboratively streamline global channels for viral markets. Progressively scale e-business niche markets without effective leadership. Competently streamline.ise niche markets.</p>
-                    </li>
-                    <li class="descExp">
-                        <img class="icon-list" src="./assets/icon/icon-dot.svg"/>
-                        <p>Collaboratively streamline global channels for viral markets. Progressively scale e-business niche markets without effective leadership. Competently streamline.ise niche markets.</p>
-                    </li>
-                    <li class="descExp">
-                        <img class="icon-list" src="./assets/icon/icon-dot.svg"/>
-                        <p>Collaboratively streamline global channels for viral markets. Progressively scale e-business niche markets without effective leadership. Competently streamline.ise niche markets.</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="projectSection">
-        <div class="titleContr">
-            <div class="titleSection">Project Section</div>
-            <div class="captionTitle">Quickly reconceptualize premier experiences vis-a-vis enterprise niche markets.</div>
-        </div>
-        <div class="listProject">
-            <div class="projectItem">
-                <span class="projectTitle">Project Title</span>
-                <img src="./assets/img/halallocal.png" alt="Disini Gambar" class="projectPict">
-                <div class="ctaProject">Check Detail</div>
-            </div>
-            <div class="projectItem">
-                <span class="projectTitle">Project Title</span>
-                <img src="./assets/img/halallocal.png" alt="Disini Gambar" class="projectPict">
-                <div class="ctaProject">Check Detail</div>
-            </div>
-        </div>
-    </div>
-    <div class="exploSection">
-        <div class="titleContr">
-            <div class="titleSection">Exploration Section</div>
-            <div class="captionTitle">Quickly reconceptualize premier experiences vis-a-vis enterprise niche markets.</div>
-        </div>
-        <div class="exploCont">
-            <div class="exploList">
-                <div class="exploItem expoInstagram">
-                    <div class="topExpl">
-                        <span class="labelExpl">Design</span>
-                        <span class="labelUpdate">Update</span>
-                    </div>
-                    <span class="explTitle">Intagram</span>
-                    <div class="ctaProject">Check Detail</div>
+    <script type="text/babel">
+      class Hello extends React.Component {
+        render() {
+          return <h1>sssss!</h1>;
+        }
+      }
 
-                </div>
-                <div class="exploItem expoDribbble">
-                    <div class="topExpl">
-                        <span class="labelExpl">Design</span>
-                        <span class="labelUpdate">Update</span>
-                    </div>
-                    <span class="explTitle">Dribbble</span>
-                    <div class="ctaProject">Check Detail</div>
-
-                </div>
-                <div class="exploItem expoUplabs">
-                    <div class="topExpl">
-                        <span class="labelExpl">Design</span>
-                        <span class="labelUpdate">Update</span>
-                    </div>
-                    <span class="explTitle">Uplabs</span>
-                    <div class="ctaProject">Check Detail</div>
-
-                </div>
-                <div class="exploItem expGithub">
-                    <div class="topExpl">
-                        <span class="labelExpl">Design</span>
-                        <span class="labelUpdate">Update</span>
-                    </div>
-                    <span class="explTitle">Github</span>
-                    <div class="ctaProject">Check Detail</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="shelfSection">
-        <div class="titleContr">
-            <div class="titleSection">Shelf Section</div>
-            <div class="captionTitle">Quickly reconceptualize premier experiences vis-a-vis enterprise niche markets.</div>
-        </div>
-        <div class="contBook">
-            <div class="listBook">
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-                <div class="bookItem">Book Item Disini</div>
-            </div>
-        </div>
-    </div>
-    <div class="buttonUpdate">
-        <div class="ctaProject">Update Soon</div>
-    </div>
-</body>
-
+      ReactDOM.render(<Hello />, document.getElementById("app"));
+    </script>
+  </body>
 </html>
