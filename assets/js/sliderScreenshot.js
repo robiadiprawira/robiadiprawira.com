@@ -3,11 +3,11 @@
 productScroll();
 
 function productScroll() {
-  let slider = document.getElementById("sliderSection");
+  let slider = document.getElementById("slider");
   let next = document.getElementsByClassName("pro-next");
   let prev = document.getElementsByClassName("pro-prev");
-  let screenShotList = document.getElementById("screenShotList");
-  let screenShotItem = document.getElementById("screenShotList");
+  let slide = document.getElementById("slide");
+  let item = document.getElementById("slide");
 
   for (let i = 0; i < next.length; i++) {
     //refer elements by class name
