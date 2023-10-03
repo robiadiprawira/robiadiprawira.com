@@ -5,11 +5,12 @@
 }
 
 .imageProduct {
-  padding: 40px;
   box-sizing: border-box;
   background-color: #242424;
   border: #565656 solid 1px;
   border-radius: 12px;
+  width: 266px;
+  height: 266px;
 }
 
 .imageProduct > img {
@@ -36,6 +37,11 @@
   gap: 24px;
 }
 
+.captionTitle {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
 .taskTitle {
   font-size: 24px;
   font-weight: 600;
@@ -60,6 +66,7 @@
   margin: auto;
   overflow-x: scroll;
   overflow-y: hidden;
+  margin-bottom: 40px;
 }
 
 .slider::-webkit-scrollbar {
@@ -86,15 +93,33 @@
   margin-top: 5px;
 }
 
-.ctrl-btn {
+/* .ctrl-btn {
   padding: 20px 20px;
   min-width: 50px;
-  background: #fff;
+  background: #1e1e1e;
+  color: #fff;
   border: none;
   font-weight: 600;
   text-align: center;
   cursor: pointer;
   outline: none;
+
+  position: absolute;
+  top: 50%;
+  margin-top: -27.5px;
+} */
+
+.ctrl-btn {
+  padding: 20px 20px;
+  min-width: 50px;
+  background: #1e1e1e;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
 
   position: absolute;
   top: 50%;
@@ -120,4 +145,9 @@
 .arrowBack p {
   color: #fff;
   font-size: 16px;
+}
+
+button img {
+  height: 24px;
+  width: 24px;
 }
