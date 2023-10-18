@@ -10,3 +10,17 @@
   color: #fff;
   font-size: 16px;
 }
+
+.detailHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.portoImg {
+  background-color: #242424;
+  border: #565656 1px solid;
+  border-radius: 12px;
+  width: 1040px;
+  height: 421px;
+}
