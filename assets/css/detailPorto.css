@@ -37,10 +37,10 @@
   gap: 24px;
 }
 
-.captionTitle {
+/* .captionTitle {
   word-wrap: break-word;
   word-break: break-all;
-}
+} */
 
 .taskTitle {
   font-size: 24px;
