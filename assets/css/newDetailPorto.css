@@ -24,3 +24,64 @@
   width: 1040px;
   height: 421px;
 }
+
+.detailProjectInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.itemProjectInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.detailDesc {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.detailDescContent {
+  line-height: 150%;
+}
+.detailDescContent p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.chipsTechStack {
+  background-color: #fff;
+  padding: 10px 16px;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.chipsTechStack p {
+  color: black;
+}
+
+.containerStack {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.detailStackDesign {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
