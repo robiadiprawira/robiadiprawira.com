@@ -234,6 +234,7 @@ li {
 .projectPict {
   width: 358px;
   height: 270px;
+  margin: auto;
 }
 
 .labelUpdate {

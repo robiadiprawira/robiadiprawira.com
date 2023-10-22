@@ -3,3 +3,15 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.aimapproval {
+  background-image: url("../img/background-aiimapproval.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.detail-aiimapproval {
+  background-image: url("../img/detail-aiimapproval.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -21,8 +21,8 @@
   background-color: #242424;
   border: #565656 1px solid;
   border-radius: 12px;
-  width: 1040px;
-  height: 421px;
+  width: 1020px;
+  height: 510px;
 }
 
 .detailProjectInfo {
@@ -84,4 +84,20 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.detailTechStack {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.listDesc {
+  display: flex;
+  gap: 12px;
+}
+
+ul {
+  margin-top: 10px;
 }
