@@ -27,3 +27,39 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.liveMobilize {
+  background-image: url("../img/showcaseLivemobilize.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.detailliveMobilize {
+  background-image: url("../img/detail-livemobilize.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.detailBataraGuru {
+  background-image: url("../img/detail-bataraguru.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.showcaseBataraGuru {
+  background-image: url("../img/showcasebataraguru.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.showcaseEvos {
+  background-image: url("../img/showcaseEvos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.detailEvos {
+  background-image: url("../img/detailaseEvos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}

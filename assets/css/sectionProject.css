@@ -3,10 +3,10 @@
 }
 
 .listProject {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 24px;
+  row-gap: 24px;
 }
 
 .projectItem {
