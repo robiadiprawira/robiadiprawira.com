@@ -1,5 +1,5 @@
 .halallocal {
-  background-image: url("../img/background-halalLocal.png");
+  background-image: url("../img/showcaseHalallocal.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -10,8 +10,20 @@
   background-size: contain;
 }
 
-.detail-aiimapproval {
+.detailAimapproval {
   background-image: url("../img/detail-aiimapproval.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.detailHalalLocal {
+  background-image: url("../img/detail-halalLocal.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.showcaseHalalLocal {
+  background-image: url("../img/showcaseHalallocal.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
