@@ -63,3 +63,15 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.detailArchiveHub {
+  background-image: url("../img/detail-archivehub.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.showcaseArchiveHub {
+  background-image: url("../img/showcasearchivehub.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
