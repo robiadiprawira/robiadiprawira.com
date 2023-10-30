@@ -778,10 +778,15 @@ span {
 }
 
 .itemProjectInfo {
+  display: grid;
+  grid-template-columns: 150px 60px 150px;
+}
+
+/* .itemProjectInfo {
   display: flex;
   flex-direction: row;
   gap: 12px;
-}
+} */
 
 .detailDesc {
   display: flex;
