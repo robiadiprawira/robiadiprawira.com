@@ -782,12 +782,6 @@ span {
   grid-template-columns: 150px 60px 150px;
 }
 
-/* .itemProjectInfo {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-} */
-
 .detailDesc {
   display: flex;
   gap: 12px;
@@ -840,3 +834,9 @@ span {
 ul {
   margin-top: 10px;
 }
+
+/* Media Querry 1024px Start Here */
+
+/* Media Querry 768px Start Here */
+
+/* Media Querry 360px Start Here */
