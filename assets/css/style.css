@@ -835,8 +835,13 @@ ul {
   margin-top: 10px;
 }
 
-/* Media Querry 1024px Start Here */
-
-/* Media Querry 768px Start Here */
-
-/* Media Querry 360px Start Here */
+/* media querry 1920 here */
+@media (min-width: 1920px) {
+  .listProject {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+}
