@@ -521,10 +521,6 @@ span {
 
 /* Section Experienced start here */
 
-.sectionExperience {
-  /* background-color: lightgoldenrodyellow; */
-}
-
 .expContent {
   display: flex;
   flex-direction: column;
@@ -563,10 +559,6 @@ span {
 }
 
 /* Section Project start here */
-
-.projectSection {
-  /* background-color: lightgray; */
-}
 
 .listProject {
   display: grid;
@@ -612,10 +604,6 @@ span {
 }
 
 /* Section Exploration start here */
-
-.exploSection {
-  /* background-color: lightpink; */
-}
 
 .exploCont {
   margin: auto;
